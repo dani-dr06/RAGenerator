@@ -1,0 +1,19 @@
+Generator:
+  input_dir: inputs  # directory which holds your source documents
+  output_dir: output   # directory in which output file will be created
+
+  llm:
+    provider: OpenAI    # Possible values: OpenAI, Anthropic, Google
+    temperature: 0    # Value between 0 and 1
+    model_name: gpt-3.5-turbo    # String name for model
+
+  embeddings:
+    provider: OpenAI    # Possible values: OpenAI, Google, HuggingFace
+
+  chunking:
+    chunk_size: 1000
+    overlap: 200
+
+  vector_store:
+    existing: true   # True or False depending on whether the Neo4j vector index has already been initialized
+    loading: true   # True or False depending on whether we want to load and add new docs to Vector Index
