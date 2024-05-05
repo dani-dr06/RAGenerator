@@ -1,6 +1,7 @@
 ## Generating Knowledge Objects Using RAG with LangChain
 The main goal of this project is to create an "assistant" powered by Retrieval Augmented Generation (RAG) using LangChain,
 with the idea being that this can be used to generate useful, accurate, and concise information on any topic of interest.
+This framework was based on previous work I did for a course, which is available [here](https://github.com/vamado09/IU-Virtual-Tissue-Simulation).
 
 
 
